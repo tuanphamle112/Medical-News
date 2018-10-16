@@ -139,70 +139,60 @@ a:focus {
   -ms-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
 }
-.header-slider header .select-language {
+.header-slider header .login {
   position: absolute;
-  right: 30px;
-  top: 47px;
-  z-index: 5;
+  right: -55px;
+  top: 18px;
 }
-.header-slider header .select-language img {
-  width: 30px;
-  height: 20px;
-  border-radius: 3px;
-  margin-left: 10px;
-}
-.header-slider header .select-language button {
+.login .nav-login-btn {
+  width: 100px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #4373aa;
+  border: 3px solid #fff;
   color: #fff;
-  background: transparent;
-  border: 0px;
-  position: relative;
-  padding-right: 20px;
 }
-.header-slider header .select-language .flag {
-  width: 30px;
-  height: 20px;
-  border-radius: 3px;
+.login .login-btn {
+  margin: 0px 10px;
+}
+/* Login css */
+.main-login{
   background-color: #fff;
-  display: inline-block;
-  position: absolute;
-  top: 2px;
+
+}
+.wrap-img-decoration {
   text-align: center;
-  right: 13px;
 }
-.header-slider header .select-language .flag-japan:before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  border-radius: 8px;
-  background-color: red;
-  margin: auto;
-  display: block;
-  margin-top: 6px;
+.wrap-img-decoration img {
+  border-radius: 50%;
 }
-.header-slider header .select-language .flag-vietnam {
-  background-color: red;
-  margin-top: 7px;
+.main-center{
+  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 420px;
+  padding: 15px 40px;
+
 }
-.header-slider header .select-language .flag-vietnam svg {
-  width: 10px;
-  margin: auto;
-  margin-top: 5px;
+
+.login-button {
+ margin-top: 5px;
+ background-color: #4373aa;
+ border-color: #4373aa;
+ opacity: 0.8;
+ transition: 0.3s;
 }
-.header-slider header .select-language .flag-vietnam .st0 {
-  fill: #f5ff0c;
+.login-button:hover {
+  opacity: 1;
+  background-color: #4373aa;
+  border-color: #4373aa;
+  transition: 0.3s;
 }
-.header-slider header .select-language .caret {
-  position: absolute;
-  top: 10px;
-  right: 0px;
+.login-register{
+ font-size: 11px;
+ text-align: center;
 }
-.header-slider header .select-language .dropdown .left {
-  right: 0px;
-  left: inherit;
-}
-.header-slider header .select-language .dropdown-menu > li > a {
-  text-align: right;
-}
+
+/* End login css */
 .header-slider .slogan-vnext {
   display: block;
   height: 30px;
@@ -2315,7 +2305,7 @@ a:focus {
     position: absolute;
     top: 20px;
     left: 20px;
-    z-index: 999;
+    /* z-index: 999; */
     width: 30px;
     height: 30px;
   }
