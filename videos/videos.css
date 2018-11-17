@@ -23,6 +23,7 @@
 .wrap-list .item .in-item .images {
   width: 35%;
   float: left;
+  margin-top: 22px;
 }
 .wrap-list .item .in-item .images img {
   width: 100%;
@@ -70,3 +71,37 @@
   -o-transition: all 0.3s ease 0s;
   color: #f17000;
 }
+/* Image video standing */
+.wrap-list .item .in-item .wrap-image-video {
+    max-width: 263px;
+    height: 147px;
+    border: 1px solid #00000038;
+    border-radius: 10px;
+    background-image: url(../images/medical2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrap-list .item .in-item .wrap-image-video i {
+    position: absolute;
+    top: 38px;
+    font-size: 55px;
+    left: 40%;
+    color: #333333;
+}
+.wrap-list .item .in-item .wrap-image-video .overlay-video {
+    width:100%;
+    height: 100%;
+    background-color: #ccc;
+    opacity: 0.2;
+    display: none;
+    transition: 0.3s;
+}
+.wrap-list .item .in-item .wrap-image-video:hover .overlay-video{
+    display: block;
+    transition: 0.3s;
+}
+.wrap-list .item .in-item .wrap-image-video:hover i{
+    color: #f17000;
+}
+/* Image video standing */

@@ -1,0 +1,20 @@
+.detail-content>span {
+    font-weight: bold;
+    font-size: 15px;
+}
+.detail-content .news-image-content {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.detail-content img {
+    border: 1px solid #cccccc61;
+    margin-bottom: 10px;
+}
+.detail-content .news-image-content span {
+    font-weight: 300;
+    font-size: 14px;
+}
+.wrap-content .title-side {
+    color: #4373aa !important;
+}
