@@ -1,0 +1,134 @@
+.wrap-page-search {
+    padding: 20px;
+    background-image: url(../images/bg.jpeg)
+}
+.wrap-page-search .wrap-content-search {
+    max-width : 85%;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* alphabet section */
+.fillter-character {
+    float: left;
+    margin-left: 15px;
+    border: 1px solid #DCDCDC;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
+.character-title {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #DCDCDC;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-top: 0px !important;
+}
+.character-title span {
+    margin-left: 15px;
+}
+.character {
+    float: left;
+    border-bottom: 1px solid #DCDCDC;
+    background: #f9f9f9;
+}
+.character a {
+    float: left;
+    width: 37px;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.character a:hover, .character a.active {
+    color: #fff;
+    background: none repeat scroll 0 0 #1ABC9C;
+}
+.fillter-character ul.disease-advise-ul {
+    margin-left: 10px;
+}
+ul.disease-advise-ul {
+    float: left;
+    margin-top: 10px;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+ul.disease-advise-ul li a {
+    background: url(../images/bg_dot.png) no-repeat scroll 0 13px transparent;
+    color: #34495E;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    line-height: 20px;
+    padding: 4px 5px 0 12px;
+}
+/* end alphabet section */
+/* Body right */
+.body-right {
+    height: auto;
+    margin-top: 25px;
+}
+.body-right .top-symptom {
+    padding: 5px 0px;
+}
+span.caption-top-area {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 4px solid #48bc9b;
+}
+.top-symptom .search {
+    margin-top: 10px;
+}
+.top-symptom .search i {
+    top: 8px !important;
+    left: 250px !important;
+}
+.top-symptom .search input {
+    width: 278px !important;
+    height: 33px !important;
+    border: 1px solid #aaaaaa75;
+    border-radius: 2px !important;
+    box-shadow: none;
+}
+.top-symptom ul.disease-advise-ul {
+    float: none !important;
+    margin-left: -38px;
+}
+.top-symptom ul.disease-advise-ul li{
+    float: none !important;
+}
+.hot-new {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hot-new a img {
+    width: 80%;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    height: 130px;
+    /* height: 20p; */
+}
+.hot-new a.caption-hot-new {
+    font-size: 15px;
+    font-weight: 500;
+    color: #34495E;
+}
+.list-hot-news .hot-new {
+    width: 44%;
+    display: inline-block;
+}
+.list-hot-news .hot-new .caption-hot-new {
+    font-size: 15px;
+}
+.list-hot-news .hot-new img {
+    height: 75px !important;
+}
+/* End body right */

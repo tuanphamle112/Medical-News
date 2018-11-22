@@ -1833,11 +1833,11 @@ a:focus {
 
   background: #fcfcfc;
   border: 1px solid #aaa;
-  border-radius: 5px;
-  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  border-radius: 2px;
+  /* box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset; */
 }
 
-.search input { text-indent: 32px;}
+.search input { text-indent: 14px;}
 .search .fa-search { 
   position: absolute;
   top: 27px;
