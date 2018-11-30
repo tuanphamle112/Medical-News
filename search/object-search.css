@@ -1,0 +1,172 @@
+.wrap-page-search {
+    padding: 20px;
+    background-image: url(../images/bg.jpeg)
+}
+.wrap-page-search .wrap-content-search {
+    max-width : 85%;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* body map */
+.body-map {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.body-map>span {
+    display: block;
+}
+
+.common-disease-wrap {
+    border: 1px solid #DCDCDC;
+    float: left;
+    margin-top: 17px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 100%;
+}
+.common-disease-wrap .common-disease-item  {
+    width: 50% !important;
+    float: left;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 100%;
+}
+.common-disease-item .common-disease-h3 {
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    line-height: 42px;
+}
+.common-disease-item .common-disease-h3 span {
+    float: left;
+}
+
+.detailDisease_Xemtheodoituong_6_2754 {
+    width: 120px !important;
+}
+
+.common-disease-item .common-disease-h3 span.icon-boy {
+    background: url(../images/icon_boy.png) no-repeat scroll left top transparent;
+}
+.common-disease-item .common-disease-h3 span.icon-baby {
+    background: url(../images/tre_em.png) no-repeat scroll left top transparent;
+}
+.common-disease-item .common-disease-h3 span.icon-baby {
+    background: url(../images/tre_em.png) no-repeat scroll left top transparent;
+}
+.common-disease-item .common-disease-h3 span.icon-woman {
+    background: url(../images/nu_gioi.png) no-repeat scroll left top transparent;
+}
+.common-disease-item .common-disease-h3 span.icon-old {
+    background: url(../images/old_man.png) no-repeat scroll left top transparent;
+}
+.common-disease-item .common-disease-h3 span.common-disease-icon {
+    float: left;
+    width: 35px;
+    height: 45px;
+    margin-left: 15px;
+}
+.common-disease-item .common-disease-ul {
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    margin-left: -35px;
+}
+.common-disease-item .common-disease-ul li {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.common-disease-item .common-disease-ul li a {
+    background: url(../images/bg_dot.png) no-repeat scroll 0 13px transparent;
+    color: #34495E;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    line-height: 20px;
+    padding: 0 5px 0 12px;
+}
+/* End body map */
+/* Body right */
+ul.disease-advise-ul {
+    float: left;
+    margin-top: 10px;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+ul.disease-advise-ul li a {
+    background: url(../images/bg_dot.png) no-repeat scroll 0 13px transparent;
+    color: #34495E;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    line-height: 20px;
+    padding: 4px 5px 0 12px;
+}
+.body-right {
+    height: auto;
+    margin-top: 25px;
+}
+.body-right .top-symptom {
+    padding: 5px 0px;
+}
+span.caption-top-area {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 4px solid #48bc9b;
+}
+.top-symptom .search {
+    margin-top: 10px;
+}
+.top-symptom .search i {
+    top: 8px !important;
+    left: 250px !important;
+}
+.top-symptom .search input {
+    width: 278px !important;
+    height: 33px !important;
+    border: 1px solid #aaaaaa75;
+    border-radius: 2px !important;
+    box-shadow: none;
+}
+.top-symptom ul.disease-advise-ul {
+    float: none !important;
+    margin-left: -38px;
+}
+.top-symptom ul.disease-advise-ul li{
+    float: none !important;
+}
+.hot-new {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hot-new a img {
+    width: 80%;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    height: 130px;
+    /* height: 20p; */
+}
+.hot-new a.caption-hot-new {
+    font-size: 15px;
+    font-weight: 500;
+    color: #34495E;
+}
+.list-hot-news .hot-new {
+    width: 44%;
+    display: inline-block;
+}
+.list-hot-news .hot-new .caption-hot-new {
+    font-size: 15px;
+}
+.list-hot-news .hot-new img {
+    height: 75px !important;
+}
+/* End body right */

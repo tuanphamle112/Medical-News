@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 
-<html lang="vi"><head><meta content="text/html; charset=UTF-8">
-    <title>Tin tức</title>
-    
-    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/fontawesome/css/all.min.css">
+<html lang="vi">
+    <head>
+        <meta content="text/html; charset=UTF-8">
+        <title>Hỏi đáp</title>
+        
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/fontawesome/css/all.min.css">
 
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="./alphabet.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="./question-answer.css">
+    </head> 
   <body>
   <div class="overlay-menu"></div>
   <div class="header-slider header-pages">
@@ -29,7 +32,7 @@
         <div class="nav-top-head">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle active-item " >Tra cứu bệnh
+              <a href="#" class="dropdown-toggle active-item " > Tra cứu bệnh
                 <span class="caret"></span>
               </a>
               <div class="list-submenu">
@@ -274,66 +277,134 @@
             <div class="row">
                 <div class="col-sm-8 col-md-8">
                     <div class="search-section">
-                        <!-- alphabet section -->
-                        <div class="fillter-character">
-                            <h1 class="character-title">
-                                <span>Tìm theo A-B-C </span>
-                            </h1>
-                            <div class="character">
-                                <a class="tab-heart active">A</a>
-                                <a class="tab-heart">B</a>
-                                <a class="tab-heart">C</a>
-                                <a class="tab-heart">D</a>
-                                <a class="tab-heart">E</a>
-                                <a class="tab-heart">F</a>
-                                <a class="tab-heart">G</a>
-                                <a class="tab-heart">H</a>
-                                <a class="tab-heart">I</a>
-                                <a class="tab-heart">J</a>
-                                <a class="tab-heart">K</a>
-                                <a class="tab-heart">L</a>
-                                <a class="tab-heart">M</a>
-                                <a class="tab-heart">N</a>
-                                <a class="tab-heart">O</a>
-                                <a class="tab-heart">P</a>
-                                <a class="tab-heart">Q</a>
-                                <a class="tab-heart">R</a>
-                                <a class="tab-heart">S</a>
-                                <a class="tab-heart">T</a>
-                                <a class="tab-heart">U</a>
-                                <a class="tab-heart">V</a>
-                                <a class="tab-heart">W</a>
-                                <a class="tab-heart">X</a><a class="tab-heart">Y</a>
-                                <a class="tab-heart">Z</a>
+                        <!-- body part section -->
+                        <div class="wrap-question-answer">
+                            <span class="caption-top-area" style="margin-bottom:5px;">
+                                Hỏi đáp cùng bác sĩ
+                            </span>
 
-                            </div>
-                            <div id="listDiseaseABC">
-                                <div id="listDiseaseABC">
-                                    <ul class="disease-advise-ul">
-                                        
-                                        <li><a href="#">
-                                            Á sừng</a></li>
-                                    
-                                        <li><a href="#">
-                                            Alzheimer</a></li>
-                                    
-                                        <li><a href="#">
-                                            Áp-xe gan</a></li>
-                                    
-                                        <li><a href="#">
-                                            Áp-xe phổi</a></li>
-                                    
-                                        <li><a href="#">
-                                            Áp-xe thận</a></li>
-                                    
-                                        <li><a href="#">
-                                            Áp-xe vùng hậu môn-trực tràng</a></li>
-                                                    
-                                    </ul>
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#topic">Hỏi - Đáp</a></li>
+                                <li><a data-toggle="tab" href="#question-form">Câu hỏi của bạn</a></li>
+                            </ul>
+                                
+                            <div class="tab-content">
+                                <div id="topic" class=" tab-pane fade in active">
+                                    <h3>Câu hỏi nổi bật</h3>
+                                    <!-- Question - answer content -->
+                                    <div class="wrap-topic">
+                                        <p class="wtc-p-user">
+                                            <a class="wtc-lnk-user">
+                                                Hai Anh - <span style="color:#9BA1A5; font-size: 11px;">29/06</span>
+                                            </a>
+                                        </p>
+                                        <h3 class="wtc-h3-shapo">
+                                            <a href="./answer.html" class="wtc-link-shapo">
+                                                Hút cỏ mỹ nhiều nên giờ em bị teo não phải không?</a>
+                                        </h3>
+                                        <p class="wtc-p-title">
+                                            Chào chuyên gia tư vấn. Em còn rất trẻ mới 19 tuổi do dùng nhiều chất kích thích như cỏ mỹ dùng 1 số lượng lớn trong 6 tháng. Và giờ trí nhớ đã suy...
+                                        </p>
+                                    </div>
+                                    <div class="wrap-topic">
+                                        <p class="wtc-p-user">
+                                            <a class="wtc-lnk-user">
+                                                Hai Anh - <span style="color:#9BA1A5; font-size: 11px;">29/06</span>
+                                            </a>
+                                        </p>
+                                        <h3 class="wtc-h3-shapo">
+                                            <a href="./answer.html" class="wtc-link-shapo">
+                                                Hút cỏ mỹ nhiều nên giờ em bị teo não phải không?</a>
+                                        </h3>
+                                        <p class="wtc-p-title">
+                                            Chào chuyên gia tư vấn. Em còn rất trẻ mới 19 tuổi do dùng nhiều chất kích thích như cỏ mỹ dùng 1 số lượng lớn trong 6 tháng. Và giờ trí nhớ đã suy...
+                                        </p>
+                                    </div>
+                                    <div class="wrap-topic">
+                                        <p class="wtc-p-user">
+                                            <a class="wtc-lnk-user">
+                                                Hai Anh - <span style="color:#9BA1A5; font-size: 11px;">29/06</span>
+                                            </a>
+                                        </p>
+                                        <h3 class="wtc-h3-shapo">
+                                            <a href="./answer.html" class="wtc-link-shapo">
+                                                Hút cỏ mỹ nhiều nên giờ em bị teo não phải không?</a>
+                                        </h3>
+                                        <p class="wtc-p-title">
+                                            Chào chuyên gia tư vấn. Em còn rất trẻ mới 19 tuổi do dùng nhiều chất kích thích như cỏ mỹ dùng 1 số lượng lớn trong 6 tháng. Và giờ trí nhớ đã suy...
+                                        </p>
+                                    </div>
+                                    <div class="wrap-topic">
+                                        <p class="wtc-p-user">
+                                            <a class="wtc-lnk-user">
+                                                Hai Anh - <span style="color:#9BA1A5; font-size: 11px;">29/06</span>
+                                            </a>
+                                        </p>
+                                        <h3 class="wtc-h3-shapo">
+                                            <a href="./answer.html" class="wtc-link-shapo">
+                                                Hút cỏ mỹ nhiều nên giờ em bị teo não phải không?</a>
+                                        </h3>
+                                        <p class="wtc-p-title">
+                                            Chào chuyên gia tư vấn. Em còn rất trẻ mới 19 tuổi do dùng nhiều chất kích thích như cỏ mỹ dùng 1 số lượng lớn trong 6 tháng. Và giờ trí nhớ đã suy...
+                                        </p>
+                                    </div>
+                                    <!-- End question answer content -->
+                                </div>
+                                <div id="question-form" class="tab-pane fade">
+                                    <h3>Thông tin của bạn</h3>
+                                    <div class="wrap-form-question">
+                                        <div class="form-group">
+                                            <label for="usr">Tên:</label>
+                                            <input type="text" class="form-control" id="usr">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">Địa chỉ email:</label>
+                                            <input type="email" class="form-control" id="usr">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="usr">Mời nhập chi tiết câu hỏi:</label>
+                                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sel1">Chuyên ngành :</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>Không rõ</option>
+                                                <option>Tai - Mũi - Họng</option>
+                                                <option>Xương khớp</option>
+                                                <option>Ấy ấy</option>
+                                                <option>Mắt</option>
+                                                <option>Nội tạng</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sel1">Lựa chọn bác sĩ:</label>
+                                            <select class="form-control" id="sel1">
+                                                <option>Random</option>
+                                                <option>Lò Văn Tèn - 20 năm kinh nghiệm</option>
+                                                <option>Bành Thị Lòi - 5 năm kinh nghiệm</option>
+                                                <option>Phạm Lê Tuấn - 60 năm kinh nghiệm</option>
+                                                <option>Nguyễn Ngọc Thái - Bác sĩ dự bị</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Upload Image</label>
+                                            <div class="input-group">
+                                                <span class="input-group-btn">
+                                                    <span class="btn btn-default btn-file">
+                                                        Browse… <input type="file" id="imgInp">
+                                                    </span>
+                                                </span>
+                                                <input type="text" class="form-control" readonly>
+                                            </div>
+                                            <img id='img-upload'/>
+                                        </div>
+                                        <button type="button" class="nav-login-btn login-btn" data-toggle="modal" data-target="#loginModal">Hỏi bác sĩ</button>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
-                        <!-- End alphabet section -->
+                        <!-- End body part section -->
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4">

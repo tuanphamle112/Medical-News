@@ -1,0 +1,221 @@
+.wrap-page-search {
+    padding: 20px;
+    background-image: url(../images/bg.jpeg)
+}
+.wrap-page-search .wrap-content-search {
+    max-width : 85%;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* body part  section */
+.wrap-question-answer {
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.wrap-question-answer ul.nav-tabs {
+    margin-top: 20px;
+}
+.wrap-form-question .nav-login-btn {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4373aa;
+    color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: 0.3s;
+    opacity: 0.9;
+    margin-left: 40% !important;
+}
+.wrap-form-question .nav-login-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+
+}
+.wrap-form-question .login-btn {
+margin: 0px 10px;
+}
+    /* Image upload */
+    .btn-file {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+    #img-upload{
+        width: 100%;
+    }
+    /* End image upload */
+    /* tab */
+    .nav-tabs li {
+        width: 50%;
+        text-align: center;
+
+    }
+    .nav-tabs li.active {
+        border-bottom: 4px solid #ddd;
+    }
+    .nav-tabs li a {
+        border: none !important;
+        color: #555;
+        font-size: 18px;
+    }
+    .nav-tabs li.active a {
+        font-weight: bold;
+    }
+    /* End tab */
+    /* question answer content */
+    .wrap-topic .wtc-row.wtc-row-user {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .wrap-topic .wtc-row {
+        float: left;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .wrap-topic p.wtc-p-user a.wtc-lnk-user {
+        font-weight: 400 !important;
+    }
+    .wrap-topic p.wtc-p-user a.wtc-lnk-user {
+        color: #9BA1A5;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .wrap-topic .wtc-h3-shapo {
+        margin-top: 3px;
+        overflow: hidden;
+    }
+    .wrap-topic .wtc-link-shapo {
+        color: #34495E;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wrap-topic .wtc-p-title {
+        line-height: 18px;
+        margin-top: 3px;
+        color: #34495E;
+        overflow: hidden;
+        max-height: 55px;
+    }
+    .wrap-topic {
+        border-bottom: 1px solid #cccccc7a;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    /* End  question answer content */
+.character-title {
+    border-bottom: 1px solid #DCDCDC;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-top: 0px !important;
+    margin-left: 8px;
+}
+.search-section .disease-advise-ul li {
+    width: 26% !important;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+/*end body part section */
+/* Body right */
+ul.disease-advise-ul {
+    float: left;
+    margin-top: 10px;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+ul.disease-advise-ul li a {
+    background: url(../images/bg_dot.png) no-repeat scroll 0 13px transparent;
+    color: #34495E;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    line-height: 20px;
+    padding: 4px 5px 0 12px;
+}
+.body-right {
+    height: auto;
+    margin-top: 25px;
+}
+.body-right .top-symptom {
+    padding: 5px 0px;
+}
+span.caption-top-area {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 4px solid #48bc9b;
+    margin-bottom: 20px;
+}
+.top-symptom .search {
+    margin-top: 10px;
+}
+.top-symptom .search i {
+    top: 8px !important;
+    left: 250px !important;
+}
+.top-symptom .search input {
+    width: 278px !important;
+    height: 33px !important;
+    border: 1px solid #aaaaaa75;
+    border-radius: 2px !important;
+    box-shadow: none;
+}
+.top-symptom ul.disease-advise-ul {
+    float: none !important;
+    margin-left: -38px;
+}
+.top-symptom ul.disease-advise-ul li{
+    float: none !important;
+}
+.hot-new {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hot-new a img {
+    width: 80%;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    height: 130px;
+    /* height: 20p; */
+}
+.hot-new a.caption-hot-new {
+    font-size: 15px;
+    font-weight: 500;
+    color: #34495E;
+}
+.list-hot-news .hot-new {
+    width: 44%;
+    display: inline-block;
+}
+.list-hot-news .hot-new .caption-hot-new {
+    font-size: 15px;
+}
+.list-hot-news .hot-new img {
+    height: 75px !important;
+}
+/* End body right */
