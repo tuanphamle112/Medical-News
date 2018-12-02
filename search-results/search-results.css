@@ -1,0 +1,404 @@
+.wrap-page-search {
+    padding: 20px;
+    background-image: url(../images/bg.jpeg)
+}
+.wrap-page-search .wrap-content-search {
+    max-width : 85%;
+    margin: auto;
+    background-color: #fff;
+}
+
+/* body part  section */
+.wrap-question-answer {
+    padding-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.wrap-question-answer ul.nav-tabs {
+    margin-top: 20px;
+}
+.wrap-form-question .nav-login-btn {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4373aa;
+    color: #fff;
+    box-shadow: 2px 2px 2px #ccc;
+    transition: 0.3s;
+    opacity: 0.9;
+    margin-left: 40% !important;
+}
+.wrap-form-question .nav-login-btn:hover {
+    opacity: 1;
+    transition: 0.3s;
+
+}
+.wrap-form-question .login-btn {
+margin: 0px 10px;
+}
+    /* Image upload */
+    .btn-file {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+    #img-upload{
+        width: 100%;
+    }
+    /* End image upload */
+    /* tab */
+    .nav-tabs li {
+        width: 33%;
+        text-align: center;
+
+    }
+    .nav-tabs li.active {
+        border-bottom: 4px solid #ddd;
+    }
+    .nav-tabs li a {
+        border: none !important;
+        color: #555;
+        font-size: 18px;
+    }
+    .nav-tabs li.active a {
+        font-weight: bold;
+    }
+    /* End tab */
+    /* question answer content */
+    .wrap-topic .wtc-row.wtc-row-user {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dcdcdc;
+    }
+    .wrap-topic .wtc-row {
+        float: left;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .wrap-topic p.wtc-p-user a.wtc-lnk-user {
+        font-weight: 400 !important;
+    }
+    .wrap-topic p.wtc-p-user a.wtc-lnk-user {
+        color: #9BA1A5;
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .wrap-topic .wtc-h3-shapo {
+        margin-top: 3px;
+        overflow: hidden;
+    }
+    .wrap-topic .wtc-link-shapo {
+        color: #34495E;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wrap-topic .wtc-p-title {
+        line-height: 18px;
+        margin-top: 3px;
+        color: #34495E;
+        overflow: hidden;
+        max-height: 55px;
+    }
+    .wrap-topic {
+        border-bottom: 1px solid #cccccc7a;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    /* End  question answer content */
+.character-title {
+    border-bottom: 1px solid #DCDCDC;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-top: 0px !important;
+    margin-left: 8px;
+}
+.search-section .disease-advise-ul li {
+    width: 26% !important;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+/*end body part section */
+/* Body right */
+ul.disease-advise-ul {
+    float: left;
+    margin-top: 10px;
+}
+ul.disease-advise-ul li {
+    float: left;
+    margin-bottom: 2px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+ul.disease-advise-ul li a {
+    background: url(../images/bg_dot.png) no-repeat scroll 0 13px transparent;
+    color: #34495E;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    line-height: 20px;
+    padding: 4px 5px 0 12px;
+}
+.body-right {
+    height: auto;
+    margin-top: 25px;
+}
+.body-right .top-symptom {
+    padding: 5px 0px;
+}
+span.caption-top-area {
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 4px solid #48bc9b;
+    margin-bottom: 20px;
+}
+.top-symptom .search {
+    margin-top: 10px;
+}
+.top-symptom .search i {
+    top: 8px !important;
+    left: 250px !important;
+}
+.top-symptom .search input {
+    width: 278px !important;
+    height: 33px !important;
+    border: 1px solid #aaaaaa75;
+    border-radius: 2px !important;
+    box-shadow: none;
+}
+.top-symptom ul.disease-advise-ul {
+    float: none !important;
+    margin-left: -38px;
+}
+.top-symptom ul.disease-advise-ul li{
+    float: none !important;
+}
+.hot-new {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hot-new a img {
+    width: 80%;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    height: 130px;
+    /* height: 20p; */
+}
+.hot-new a.caption-hot-new {
+    font-size: 15px;
+    font-weight: 500;
+    color: #34495E;
+}
+.list-hot-news .hot-new {
+    width: 44%;
+    display: inline-block;
+}
+.list-hot-news .hot-new .caption-hot-new {
+    font-size: 15px;
+}
+.list-hot-news .hot-new img {
+    height: 75px !important;
+}
+/* End body right */
+
+/* List new css */
+.wrap-list .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.wrap-list .item .in-item .images {
+  width: 100%;
+}
+.wrap-list .item .in-item .info {
+  width: 100%;
+  padding: 0px;
+  margin-top: 10px;
+}
+.wrap-list {
+  margin-bottom: 20px;
+}
+.wrap-list .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+.wrap-list .item .in-item .images {
+  width: 35%;
+  float: left;
+}
+.wrap-list .item .in-item .images img {
+  width: 100%;
+  border-radius: 5px;
+  height: 147px;
+  margin-top: 22px;
+  border: 1px solid #cccccc4d;
+}
+.wrap-list .item .in-item .info {
+  width: 65%;
+  float: left;
+  padding: 0px 30px;
+}
+.wrap-list .item .in-item .info .date {
+  color: #999;
+}
+.wrap-list .item .in-item .info h4 {
+  font-size: 2rem;
+}
+.wrap-list .item .in-item .info h4 a {
+  color: #666;
+}
+.wrap-list .item .in-item .info h4 a:hover {
+  color: #f17000;
+}
+.wrap-list .item .in-item .info .description {
+  padding: 10px 0px 20px 0px;
+  width: 85%;
+}
+.wrap-list .item .in-item .info .more {
+  border-bottom: 1px dotted #757575;
+  font-size: 1.3rem;
+  color: #757575;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  opacity: .5;
+}
+.wrap-list .item .in-item .info .more:hover {
+  border-bottom: 1px dotted #f17000;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  color: #f17000;
+}
+/* end list new css */
+
+/* list video  */
+.wrap-list .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.wrap-list .item .in-item .images {
+  width: 100%;
+}
+.wrap-list .item .in-item .info {
+  width: 100%;
+  padding: 0px;
+  margin-top: 10px;
+}
+.wrap-list .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+.wrap-list .item .in-item .images {
+  width: 35%;
+  float: left;
+}
+#videos .wrap-list .item .in-item .images {
+    margin-top: 22px;
+}
+.wrap-list .item .in-item .images img {
+  width: 100%;
+  border-radius: 5px;
+  height: 147px;
+  margin-top: 22px;
+  border: 1px solid #cccccc4d;
+}
+.wrap-list .item .in-item .info {
+  width: 65%;
+  float: left;
+  padding: 0px 30px;
+}
+.wrap-list .item .in-item .info .date {
+  color: #999;
+}
+.wrap-list .item .in-item .info h4 {
+  font-size: 2rem;
+}
+.wrap-list .item .in-item .info h4 a {
+  color: #666;
+}
+.wrap-list .item .in-item .info h4 a:hover {
+  color: #f17000;
+}
+.wrap-list .item .in-item .info .description {
+  padding: 10px 0px 20px 0px;
+}
+.wrap-list .item .in-item .info .more {
+  border-bottom: 1px dotted #757575;
+  font-size: 1.3rem;
+  color: #757575;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  opacity: .5;
+}
+.wrap-list .item .in-item .info .more:hover {
+  border-bottom: 1px dotted #f17000;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  color: #f17000;
+}
+/* Image video standing */
+.wrap-list .item .in-item .wrap-image-video {
+    max-width: 263px;
+    height: 147px;
+    border: 1px solid #00000038;
+    border-radius: 10px;
+    background-image: url(../images/medical2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.wrap-list .item .in-item .wrap-image-video i {
+    position: absolute;
+    top: 38px;
+    font-size: 55px;
+    left: 40%;
+    color: #333333;
+}
+.wrap-list .item .in-item .wrap-image-video .overlay-video {
+    width:100%;
+    height: 100%;
+    background-color: #ccc;
+    opacity: 0.2;
+    display: none;
+    transition: 0.3s;
+}
+.wrap-list .item .in-item .wrap-image-video:hover .overlay-video{
+    display: block;
+    transition: 0.3s;
+}
+.wrap-list .item .in-item .wrap-image-video:hover i{
+    color: #f17000;
+}
+/* Image video standing */
+/* end list video */

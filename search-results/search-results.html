@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" type="text/css" href="../css/main.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
-        <link rel="stylesheet" type="text/css" href="./question-answer.css">
+        <link rel="stylesheet" type="text/css" href="./search-results.css">
     </head> 
   <body>
   <div class="overlay-menu"></div>
@@ -285,12 +285,13 @@
 
                             <ul class="nav nav-tabs">
                                 <li class="active"><a data-toggle="tab" href="#topic">Hỏi - Đáp</a></li>
-                                <li><a data-toggle="tab" href="#question-form">Câu hỏi của bạn</a></li>
+                                <li><a data-toggle="tab" href="#news">Tin tức</a></li>
+                                <li><a data-toggle="tab" href="#videos">Videos</a></li>
                             </ul>
                                 
                             <div class="tab-content">
                                 <div id="topic" class=" tab-pane fade in active">
-                                    <h3>Câu hỏi nổi bật</h3>
+                                    <h3>Hỏi đáp về bệnh Viên mí mắt</h3>
                                     <!-- Question - answer content -->
                                     <div class="wrap-topic">
                                         <p class="wtc-p-user">
@@ -350,56 +351,241 @@
                                     </div>
                                     <!-- End question answer content -->
                                 </div>
-                                <div id="question-form" class="tab-pane fade">
-                                    <h3>Thông tin của bạn</h3>
-                                    <div class="wrap-form-question">
-                                        <div class="form-group">
-                                            <label for="usr">Tên:</label>
-                                            <input type="text" class="form-control" id="usr">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="usr">Địa chỉ email:</label>
-                                            <input type="email" class="form-control" id="usr">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="usr">Mời nhập chi tiết câu hỏi:</label>
-                                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="sel1">Chuyên ngành :</label>
-                                            <select class="form-control" id="sel1">
-                                                <option>Không rõ</option>
-                                                <option>Tai - Mũi - Họng</option>
-                                                <option>Xương khớp</option>
-                                                <option>Ấy ấy</option>
-                                                <option>Mắt</option>
-                                                <option>Nội tạng</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="sel1">Lựa chọn bác sĩ:</label>
-                                            <select class="form-control" id="sel1">
-                                                <option>Random</option>
-                                                <option>Lò Văn Tèn - 20 năm kinh nghiệm</option>
-                                                <option>Bành Thị Lòi - 5 năm kinh nghiệm</option>
-                                                <option>Phạm Lê Tuấn - 60 năm kinh nghiệm</option>
-                                                <option>Nguyễn Ngọc Thái - Bác sĩ dự bị</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Upload Image</label>
-                                            <div class="input-group">
-                                                <span class="input-group-btn">
-                                                    <span class="btn btn-default btn-file">
-                                                        Browse… <input type="file" id="imgInp">
-                                                    </span>
-                                                </span>
-                                                <input type="text" class="form-control" readonly>
+                                <div id="news" class="tab-pane fade">
+                                    <h3>Tin tức về bệnh viêm mí mắt</h3>
+                                    <!-- list news -->
+                                    <div class="section wrap-list">
+                                      <div class="container">
+                                        <div class="row">
+                                          <div class="col-sm-8">
+                                            
+                                            <div class="item">
+                                              <div class="in-item">
+                                                <div class="images">
+                                                  <a href="../detail/detail-news.html">
+                                                    <img src="../images/medical.jpg"  alt="Medical1">
+                                                  </a>
+                                                </div>
+                                                <div class="info">
+                                                  <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                  </h4>
+                                                  <span class="date">2018/09/27</span>
+                                                  <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                  <a class="more" href="../detail/detail-news.html">Xem thêm</a>
+                                                </div>
+                                              </div>
                                             </div>
-                                            <img id='img-upload'/>
+                                  
+                                            <div class="item">
+                                              <div class="in-item">
+                                                <div class="images">
+                                                  <a href="../detail/detail-news.html">
+                                                    <img src="../images/medical1.jpg"  alt="Medical1">
+                                                  </a>
+                                                </div>
+                                                <div class="info">
+                                                  <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                  </h4>
+                                                  <span class="date">2018/09/27</span>
+                                                  <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                  <a class="more" href="../detail/detail-news.html">Xem thêm</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                  
+                                            <div class="item">
+                                              <div class="in-item">
+                                                <div class="images">
+                                                  <a href="../detail/detail-news.html">
+                                                    <img src="../images/medical2.jpg"  alt="Medical1">
+                                                  </a>
+                                                </div>
+                                                <div class="info">
+                                                  <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                  </h4>
+                                                  <span class="date">2018/09/27</span>
+                                                  <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                  <a class="more" href="../detail/detail-news.html">Xem thêm</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                  
+                                            <div class="item">
+                                              <div class="in-item">
+                                                <div class="images">
+                                                  <a href="../detail/detail-news.html">
+                                                    <img src="../images/medical3.jpg"  alt="Medical1">
+                                                  </a>
+                                                </div>
+                                                <div class="info">
+                                                  <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                  </h4>
+                                                  <span class="date">2018/09/27</span>
+                                                  <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                  <a class="more" href="../detail/detail-news.html">Xem thêm</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                  
+                                            <div class="item">
+                                              <div class="in-item">
+                                                <div class="images">
+                                                  <a href="../detail/detail-news.html">
+                                                    <img src="../images/medical4.jpg"  alt="Medical1">
+                                                  </a>
+                                                </div>
+                                                <div class="info">
+                                                  <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                  </h4>
+                                                  <span class="date">2018/09/27</span>
+                                                  <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                  <a class="more" href="../detail/detail-news.html">Xem thêm</a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                  
+                                            <div class="nav-pages">
+                                              <ul>
+                                                <li>
+                                                  <a href="#?page=1" class="active">
+                                                    1
+                                                  </a>
+                                                </li>
+                                              
+                                                <li>
+                                                  <a href="#?page=2" class="">
+                                                    2
+                                                  </a>
+                                                </li>
+                                              
+                                                <li>
+                                                  <a href="#?page=3" class="">
+                                                    3
+                                                  </a>
+                                                </li>
+                                                <li>
+                                                    <a class="paginate_button next" id="data-table_next" href="#?page=2">&gt;&gt;</a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                  
+                                          </div>
                                         </div>
-                                        <button type="button" class="nav-login-btn login-btn" data-toggle="modal" data-target="#loginModal">Hỏi bác sĩ</button>
+                                      </div>
                                     </div>
+                                    <!-- end list news -->
+                                </div>
+                                <div id="videos">
+                                    <h3>Videos về bệnh viêm mí mắt</h3>
+                                  <!-- list video -->
+                                  <div class="section wrap-list">
+                                    <div class="container">
+                                      <div class="row">
+                                        <div class="col-sm-8">
+                                          
+                                          <div class="item">
+                                            <div class="in-item">
+                                              <div class="images">
+                                                <a href="../detail/detail-news.html">
+                                                    <div class="wrap-image-video">
+                                                        <div class="overlay-video""></div>
+                                                        <i class="fas fa-play-circle"></i>
+                                                    </div>
+                                                </a>
+                                              </div>
+                                              <div class="info">
+                                                <h4>
+                                                  <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                </h4>
+                                                <span class="date">2018/09/27</span>
+                                                <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                <a class="more" href="#">Xem thêm</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                
+                                          <div class="item">
+                                            <div class="in-item">
+                                                <div class="images">
+                                                <a href="../detail/detail-news.html">
+                                                    <div class="wrap-image-video">
+                                                        <div class="overlay-video""></div>
+                                                        <i class="fas fa-play-circle"></i>
+                                                    </div>
+                                                </a>
+                                                </div>
+                                                <div class="info">
+                                                <h4>
+                                                    <a href="../detail/detail-news.html">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                </h4>
+                                                <span class="date">2018/09/27</span>
+                                                <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                <a class="more" href="#">Xem thêm</a>
+                                                </div>
+                                            </div>
+                                          </div>
+                                
+                                          <div class="item">
+                                            <div class="in-item">
+                                              <div class="images">
+                                                <a href="#">
+                                                    <div class="wrap-image-video">
+                                                        <div class="overlay-video""></div>
+                                                        <i class="fas fa-play-circle"></i>
+                                                    </div>
+                                                </a>
+                                              </div>
+                                              <div class="info">
+                                                <h4>
+                                                  <a href="#">Blebla ble blo ble blo ble bla blu bleo</a>
+                                                </h4>
+                                                <span class="date">2018/09/27</span>
+                                                <div class="description">Nằm trong khuôn khổ Lễ vinh danh và trao giấy chứng nhận cho 50+10 Doanh nghiệp CNTT hàng đầu Việt Nam 2018 do VINASA tổ chức,  góp mặt trong top 10 doanh nghiệp có năng lực công nghệ 4.0 tiêu biểu.</div>
+                                                <a class="more" href="#">Xem thêm</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                
+                                          <div class="nav-pages">
+                                            <ul>
+      
+                                                  <li>
+                                                    <a href="#?page=1" class="active">
+                                                      1
+                                                    </a>
+                                                  </li>
+                                                
+                                                  <li>
+                                                    <a href="#?page=2" class="">
+                                                      2
+                                                    </a>
+                                                  </li>
+                                                
+                                                  <li>
+                                                    <a href="#?page=3" class="">
+                                                      3
+                                                    </a>
+                                                  </li>
+                                                
+                              
+                                                
+                                                <li>
+                                                    <a class="paginate_button next" id="data-table_next" href="#?page=2">&gt;&gt;</a>
+                                                </li>
+                                              
+                                            </ul>
+                                          </div>
+                                
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- end list video -->
                                 </div>
                             </div>
 
